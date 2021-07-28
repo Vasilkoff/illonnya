@@ -1,0 +1,355 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.main {
+  position: relative;
+  width: 1440px;
+  margin: 0 auto;
+}
+h2 {
+  margin-left: 616px;
+  margin-top: 0;
+  font-family: Rokkitt;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 119.7%;
+  /* or 43px */
+  letter-spacing: 0.08em;
+}
+.page-number {
+  display: inline-block;
+  position: relative;
+  width: 119px;
+  height: 110px;
+  left: 168px;
+  top: 14px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 96px;
+  line-height: 119.7%;
+  letter-spacing: 0.08em;
+  color: #f1eeee;
+}
+.page-number-right {
+  position: relative;
+  width: 175px;
+  height: 110px;
+  left: 1146px;
+  top: -72px;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 96px;
+  line-height: 119.7%;
+  /* or 115px */
+
+  letter-spacing: 0.08em;
+
+  color: #f1eeee;
+}
+.first-page {
+  display: flex;
+}
+
+.first-page-titleImg {
+  width: 673px;
+  height: 841px;
+  margin-top: 106px;
+  margin-left: 87px;
+  margin-right: 167px;
+}
+
+.first-page-h1 {
+  position: absolute;
+  width: 322px;
+  height: 71px;
+  left: 191px;
+  margin-top: 196px;
+  margin-bottom: 0;
+  font-family: Rokkitt;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 72px;
+  line-height: 119.7%;
+
+  letter-spacing: 0.08em;
+
+  color: #3f3e3e;
+}
+
+.info {
+  position: relative;
+  width: 650px;
+  height: 500px;
+  top: 339px;
+  left: 85px;
+}
+
+.info-title {
+  margin-top: 67px;
+  margin-bottom: 0px;
+
+  font-family: Rokkitt;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 119.7%;
+  /* or 29px */
+
+  letter-spacing: 0.08em;
+
+  color: #3f3e3e;
+}
+
+.info-title:first-child {
+  margin-top: 0;
+}
+.info-value {
+  font-family: Rokkitt;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 119.7%;
+  letter-spacing: 0.08em;
+  color: #767474;
+}
+
+.galleryWord {
+  position: absolute;
+  width: 183px;
+  height: 37px;
+  left: 191px;
+  top: 907px;
+  font-family: Rokkitt;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 48px;
+  line-height: 119.7%;
+  /* or 57px */
+  letter-spacing: 0.08em;
+  color: #3f3e3e;
+}
+
+.brands {
+  font-family: Rokkitt;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 119.7%;
+  /* or 29px */
+
+  letter-spacing: 0.08em;
+
+  color: #3f3e3e;
+  margin-top: 107px;
+  margin-left: 200px;
+  display: flex;
+}
+
+.brands-value {
+  margin-right: 43px;
+}
+
+.second-page {
+  margin-top: 80px;
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+}
+.nonsense {
+  margin-bottom: 80px;
+}
+
+.photos {
+  width: 1440px;
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 170px;
+  padding-right: 163px;
+  margin-top: -50px;
+}
+.photo {
+  margin-top: 35px;
+  margin-right: 20px;
+  width: 345px;
+  height: 431px;
+}
+
+.aboutPhoto {
+  display: inline-block;
+  margin-top: 35px;
+  margin-right: 20px;
+  width: 345px;
+  height: 431px;
+  font-family: Rokkitt;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 119.7%;
+  /* or 29px */
+
+  letter-spacing: 0.08em;
+
+  color: #000000;
+}
+
+.photo:nth-child(-n + 3) {
+  margin-top: 0;
+}
+.Merc {
+  margin-bottom: 80px;
+}
+/* .Merc h2 {
+  margin-left: 559px;
+  
+} */
+
+.Merc-div {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 170px;
+  padding-right: 163px;
+}
+
+.merc-photo {
+  display: inline-block;
+  width: 535px;
+  height: 431px;
+  margin-right: 35px;
+  margin-top: 35px;
+  font-family: Rokkitt;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 119.7%;
+}
+
+.merc-photo:first-child {
+  width: 1105px;
+  height: 624px;
+  margin-bottom: 72px;
+}
+.aboutMerc {
+  line-height: 1.5em;
+}
+.sportMaster-div,
+.FavoriteStyle-div,
+.kuok-div,
+.blacktouch-div,
+.parameters {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 167px;
+  padding-right: 170px;
+  margin-bottom: 80px;
+}
+.sportMasterPhoto,
+.FavoritePhoto {
+  display: inline-block;
+  margin-top: 35px;
+  margin-right: 20px;
+  width: 345px;
+  height: 431px;
+  font-family: Rokkitt;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 119.7%;
+}
+
+.sportMaster-div .sportMasterPhoto:first-child {
+  width: 710px;
+}
+.carouselContainer {
+  padding-left: 167px;
+  padding-right: 170px;
+  margin-bottom: 80px;
+}
+.carousel {
+  overflow: hidden;
+}
+.carousel-content {
+  width: 1075px;
+  display: flex;
+  transform: translateX(0);
+  transition: 850ms;
+}
+
+.arrows {
+  display: inline-block;
+  margin-top: 16px;
+  margin-left: 500px;
+}
+.arrow {
+  border: solid black;
+  border-width: 0 9px 9px 0;
+  display: inline-block;
+  padding: 9px;
+  margin-right: 16px;
+}
+
+.right {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+
+.left {
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+}
+.parameters {
+  margin-top: 50px;
+  justify-content: space-between;
+}
+.params {
+  width: 350px;
+  margin-top: 35px;
+}
+.paramTitle {
+  font-family: Rokkitt;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 29px;
+  letter-spacing: 0.08em;
+  text-align: left;
+  color: #3f3e3e;
+  padding: 16px;
+}
+.paramValue {
+  padding: 16px;
+  font-family: Rokkitt;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 29px;
+  letter-spacing: 0.08em;
+  text-align: left;
+  color: #767474;
+}
+.footer {
+  margin: 0 auto;
+  margin-bottom: 106px;
+  text-align: center;
+  font-family: Rokkitt;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 119.7%;
+  /* or 29px */
+
+  letter-spacing: 0.08em;
+
+  color: #767474;
+}
+/* .third-page h2 {
+  display: inline-block;
+} */
+/* 
+.photo:nth-child(3n) {
+  padding-right: 0;
+} */
